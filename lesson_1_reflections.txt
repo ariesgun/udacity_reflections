@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Of course by viewing a diff between two versions of a file, you can easily see where the changes are done. You can easily find the changes, and do some analysis whether the changes could introduce a bug or not. At last, a bug usually appear when we change something in our code. Diff will help us in finding the changes.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	First, you can see how the code has changed from time to time. As a programmer, it will give us insight on who changed it and what is changed. And when we compare with user requirement, we can easily understand how the programmer implemented it by just clicking on a certain old version of a file. In addition, we don't want to access internet first when we want to see the history.
+
+
+What do you think are the best pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+	Pros: We can make the list of file history neater by manually choosing when to commit. We choose what we want to save, and the list will not be full of unuseful history.
+
+	Cons: Sometimes we can forget to commit a file, so we don't keep the history. Automatically saving can save us. When we are doing a big change, but still the same functionality, automatically saving lets use to revert.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	That depends on how the software is used for. Google docs for example are designed to create, open, and edit one file at a time. So, that makes sense that it treat each file separately. Git has an interface that allows user to handle multiple files simultaneously. 
+
+How can you use commands git log and git diff to view the history of files?
+
+	Git log is used to get a quick overview what have been commited for a file. We can use git diff to look further what have changed specifically.
+
+How might using version control make you more confident to make changes that could break something?
+
+	It is easier to change the version of file we want to use. So, it is easier for us, developers, to track down which change caused or introduced a new bug. It saved a lot of our time.
+
+Now that you have your workspace set up, What do you want to try using Git for?
+
+	I want to try to use Git for open source projects. Currently I am interested to explore VLC Media Player architecture, and I am pretty sure Git can help me to play around the architecture without worrying breaking down the working project.
