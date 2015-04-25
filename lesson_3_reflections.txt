@@ -1,0 +1,13 @@
+What is the benfit of having a copy of the last known state of the remote stored locally?
+
+	When we make changes, sometimes we want to look back the original version of the code before our changes. Keeping the last known state let us easily rollback to that working code version. It is also benefit when we are working offline.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Hmmm.. Another alternative is to have multiple backup files. We must copy paste files before changing them. It is easier since we can just ctrl-c and ctrl -v. But as the files keep growing, it is very hard to keep trace all of them.
+
+What would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When I am checking and solving a bug, I will do it in separate branch. In that branch, i can do a test and make changes without featring to break the master code. It makes our work more structured. 
+
+	
